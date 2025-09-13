@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Greenwood Academy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7fafc;
+            color: #2d3748;
+        }
+        header {
+            background: #2b6cb0;
+            color: #fff;
+            padding: 2rem 0 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #3182ce;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #e2e8f0;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 1rem;
+            background: #bee3f8;
+        }
+        .hero-text {
+            max-width: 600px;
+        }
+        .hero img {
+            width: 300px;
+            margin-left: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 8px 16px rgba(44, 62, 80, 0.15);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 3rem 0;
+        }
+        .feature-card {
+            background: #fff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgba(44, 62, 80, 0.08);
+            margin: 1rem;
+            padding: 2rem;
+            width: 280px;
+            text-align: center;
+        }
+        .feature-card h3 {
+            margin-bottom: 0.7rem;
+            color: #2b6cb0;
+        }
+        footer {
+            background: #2b6cb0;
+            color: #fff;
+            text-align: center;
+            padding: 1.2rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 800px) {
+            .hero {
+                flex-direction: column;
+            }
+            .hero img {
+                margin: 2rem 0 0 0;
+            }
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Greenwood Academy</h1>
+        <p>Empowering Minds, Shaping Futures</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Greenwood Academy</h2>
+            <p>
+                Greenwood Academy is committed to providing a nurturing environment that fosters academic excellence, creativity, and personal growth. 
+                Join us to unlock your full potential and become a leader of tomorrow!
+            </p>
+            <a href="#admissions" style="display: inline-block; margin-top: 1rem; background: #2b6cb0; color: #fff; padding: 0.8rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                Apply Now
+            </a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="School building">
+    </section>
+    <section class="features" id="about">
+        <div class="feature-card">
+            <h3>Experienced Faculty</h3>
+            <p>Our teachers are passionate educators dedicated to student success and lifelong learning.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Modern Facilities</h3>
+            <p>State-of-the-art classrooms, science labs, sports grounds, and creative spaces for holistic development.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Inclusive Programs</h3>
+            <p>Wide range of academic and extracurricular programs tailored to nurture every student's interests.</p>
+        </div>
+    </section>
+    <section id="programs" style="padding: 2rem 1rem; background: #ebf8ff;">
+        <h2 style="text-align:center;">Our Programs</h2>
+        <ul style="max-width: 600px; margin: 1.5rem auto; font-size: 1.1rem;">
+            <li>Primary & Secondary Education</li>
+            <li>STEM & Arts Initiatives</li>
+            <li>Sports & Athletics</li>
+            <li>Leadership & Community Service</li>
+            <li>After-School Clubs</li>
+        </ul>
+    </section>
+    <section id="admissions" style="padding: 2rem 1rem;">
+        <h2 style="text-align:center;">Admissions</h2>
+        <p style="max-width: 700px; margin: 1rem auto; text-align: center;">
+            We are now accepting applications for the upcoming academic year. Visit our Admissions page to learn more about eligibility, enrollment procedures, and important dates.
+        </p>
+        <div style="text-align:center;">
+            <a href="#contact" style="background: #3182ce; color: #fff; padding: 0.7rem 1.2rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">Contact Admissions</a>
+        </div>
+    </section>
+    <section id="contact" style="padding: 2rem 1rem; background: #bee3f8;">
+        <h2 style="text-align:center;">Contact Us</h2>
+        <p style="max-width: 700px; margin: 1rem auto; text-align: center;">
+            Address: 123 Main St, Greenwood City<br>
+            Phone: (555) 123-4567<br>
+            Email: info@greenwoodacademy.edu
+        </p>
+    </section>
+    <footer>
+        &copy; 2025 Greenwood Academy. All rights reserved.
+    </footer>
+</body>
+</html>
